@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiUrl = "https://pokeapi.co/api/v2/pokemon/?limit=12";
+const apiUrl = "https://pokeapi.co/api/v2/pokemon/?limit=16";
 
 export const api = axios.create({
   baseURL: apiUrl,
