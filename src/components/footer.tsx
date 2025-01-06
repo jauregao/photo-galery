@@ -18,7 +18,7 @@ export default function Footer() {
             height={15}
           />
           <span
-            className="block w-max text-center text-sm"
+            className="block w-max text-center md:text-sm text-[12px]"
           >
             Amanda de Oliveira © 2024 Galeria de Fotos. Todos os direitos reservados.
           </span>

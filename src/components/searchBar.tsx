@@ -18,8 +18,8 @@ export default function SearchBar({
   };
 
   return (
-    <div className="max-w-screen-lg mx-auto w-full">
-      <div className="flex bg-white w-max h-max py-2 px-3 rounded-lg items-center border-[--secondary] border-[1px]">
+    <div className="lg:max-w-screen-lg max-w-[90%] mx-auto w-full">
+      <div className="flex bg-white w-max h-max py-2 md:px-3 px-2 rounded-lg items-center border-[--secondary] border-[1px]">
         <input
           type="text"
           value={input}
@@ -29,6 +29,7 @@ export default function SearchBar({
         />
         <button onClick={handleSearch} className="ml-2">
           <Image
+            className='md:w-8 w-5 h-auto'
             alt="Search Icon"
             src="/search.svg"
             width={30}
