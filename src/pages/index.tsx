@@ -34,11 +34,11 @@ export default function Home({ characters }: { characters: TPokemon[] }) {
 
   return (
     <div
-      className={`${inter.variable} ${bebas.variable} font-[family-name:var(--font-inter)] flex flex-col justify-between min-h-screen h-full bg-[url(/background.svg)] bg-cover w-[100svw]`}
+      className={`${inter.variable} ${bebas.variable} font-[family-name:var(--font-inter)] flex flex-col min-h-screen h-full bg-[url(/background.svg)] bg-cover w-[100svw]`}
     >
       <Header />
       <div
-        className="flex flex-col justify-start items-start py-20 h-full"
+        className="flex-grow flex flex-col justify-start items-start py-20 h-full"
       >
         <SearchBar setSearchQuery={handleSearch} />
         <PhotoGrid characters={filteredCharacters} />
