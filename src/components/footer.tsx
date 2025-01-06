@@ -12,19 +12,19 @@ export default function Footer() {
           className="flex justify-center gap-4"
         >
           <Image
-            alt=""
-            src={"/logo.svg"}
+            alt="logo Amanda Jauregui"
+            src="/logo.svg"
             width={15}
             height={15}
           />
           <span
             className="block w-max text-center text-sm"
           >
-            Amanda de Oliveira - © 2024 Galeria de Fotos. Todos os direitos reservados.
+            Amanda de Oliveira © 2024 Galeria de Fotos. Todos os direitos reservados.
           </span>
           <Image
-            alt=""
-            src={"/logo.svg"}
+            alt="logo Amanda Jauregui"
+            src="/logo.svg"
             width={15}
             height={15}
           />

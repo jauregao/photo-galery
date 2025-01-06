@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header
-      className="p-8 bg-[--header-background] text-5xl font-[family-name:var(--font-bebas)]"
+      className="p-8 bg-[#07010F] text-5xl font-[family-name:var(--font-bebas)]"
     >
       <div
         className="max-w-screen-lg mx-auto"

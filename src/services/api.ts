@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiUrl = "https://narutodb.xyz/api";
+const apiUrl = "https://pokeapi.co/api/v2/pokemon/?limit=12";
 
 export const api = axios.create({
   baseURL: apiUrl,
