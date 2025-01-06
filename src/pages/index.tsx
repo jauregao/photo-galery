@@ -18,13 +18,9 @@ const bebas = Bebas_Neue({
 });
 
 export default function Home({ characters }: { characters: TPokemon[] }) {
-
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [searchQuery, setSearchQuery] = useState("");
   const [filteredCharacters, setFilteredCharacters] = useState(characters);
 
   const handleSearch = (query: string) => {
-    setSearchQuery(query);
     setFilteredCharacters(
       characters.filter((character) =>
         character.name.toLowerCase().includes(query.toLowerCase())
